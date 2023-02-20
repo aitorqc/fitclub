@@ -3,6 +3,11 @@ import Header from '../Header/Header';
 
 import './Hero.css';
 
+import heart from '../../assets/heart.png';
+import hero_image from '../../assets/hero_image.png';
+import hero_image_back from '../../assets/hero_image_back.png';
+import calories from '../../assets/calories.png';
+
 export default function Hero() {
   return (
     <div className='hero'>
@@ -28,8 +33,38 @@ export default function Hero() {
             </span>
           </div>
         </div>
+
+        <div className="figures">
+          <div><span>140</span><span>expert coachs</span></div>
+          <div><span>+978</span><span>memebers joined</span></div>
+          <div><span>+50</span><span>fitness programs</span></div>
+        </div>
+
+        <div className="hero-buttons">
+          <div className="btn">Get Started</div>
+          <div className="btn">Learn More</div>
+        </div>
       </div>
-      <div className="right-h">right side</div>
+      <div className="right-h">
+        <button className='btn'>Join Now</button>
+
+        <div className="heart-rate">
+          <img src={heart} alt="heart" />
+          <span>Heart Rate</span>
+          <span>116 bpm</span>
+        </div>
+
+        <img src={hero_image} alt="hero-image" className='hero-image' />
+        <img src={hero_image_back} alt="hero-image-back" className='hero-image-back' />
+
+        <div className="calories">
+          <img src={calories} alt="calories" />
+          <div>
+            <span>Calories Burned</span>
+            <span>220 kcal</span>
+          </div>
+        </div>
+      </div>
     </div>
   )
 }
