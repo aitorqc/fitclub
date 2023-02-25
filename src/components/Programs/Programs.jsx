@@ -17,8 +17,8 @@ export default function Programs() {
 
       <div className="program-categories">
         {
-          programsData.map((program) => (
-            <div className="category">
+          programsData.map((program, i) => (
+            <div key={'program'+i} className="category">
               {program.image}
               <span>{program.heading}</span>
               <span>{program.details}</span>
