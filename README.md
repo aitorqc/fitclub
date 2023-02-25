@@ -8,5 +8,5 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Available Images
 
-![alt Dark Mode](https://github.com/aitorqc/fitclub/tree/main/public/Captura.png)
-![alt Dark Mode](https://github.com/aitorqc/fitclub/tree/main/public/Captura2.png)
+![alt Dark Mode](https://github.com/aitorqc/fitclub/blob/main/public/Captura.png)
+![alt Dark Mode](https://github.com/aitorqc/fitclub/blob/main/public/Captura2.png)
